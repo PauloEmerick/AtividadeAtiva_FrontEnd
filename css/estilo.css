@@ -1,0 +1,37 @@
+body{
+    background-color: rgba(126, 53, 5, 0.316);
+}
+
+#home{
+    display: flex;
+    min-height: calc(100vh-56px);
+}
+
+#cta{
+
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 5%;
+    font-size: 20px;
+    color: black;
+
+}
+
+#paragrafo{
+    font-size: 20px;
+    color: black;
+}
+
+#mapBox{
+    width: 500px;
+    height: 500px;
+    align-items:center ;
+    
+}
+
+#endereco{
+    font-size: 35px;
+    color: black;
+}
